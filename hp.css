@@ -1,0 +1,217 @@
+body {
+    background: url(assets/red11.jpg) center fixed;
+    height: 200vh;
+}
+
+nav {
+    background: url(assets/red.jpeg) center fixed no-repeat;
+    background-size: cover;
+    height: 9vh;
+}
+
+.navbar-brand {
+    /* font-family: 'Vast Shadow', cursive; */
+    font-family: 'Milonga', cursive;
+    /* font-family: 'UnifrakturCook', cursive; */
+    /* font-family: 'Diplomata SC', cursive; */
+    /* font-family: 'Flavors', cursive; */
+    /* font-family: 'Playball', cursive; */
+    /* font-family: 'Fredericka the Great', cursive; */
+    /* font-family: 'Qwigley', cursive; */
+    /* font-family: 'Lovers Quarrel', cursive; */
+    /* font-family: 'Italianno', cursive; */
+    margin-top: -1.5px;
+    font-size: 28px;
+    color: rgb(226, 172, 34);
+    font-weight: 500;
+}
+
+.navbar-brand:hover {
+    color: darkgoldenrod;
+}
+
+.nav-item {
+    font-family: 'Milonga', cursive;
+    margin-left: 4px;
+    margin-top: -1px;
+    font-size: 18px;
+    color: goldenrod;
+    font-weight: 500;
+    opacity: 0.85;
+}
+
+.nav-item:hover {
+    opacity: 1;
+    color: rgb(226, 172, 34);
+}
+
+.jumbotron {
+    position: relative;
+    background: url(assets/hogwartsExpress.jpg) center top 60%;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 87vh;
+    font-family: 'Lovers Quarrel', cursive;
+    color: rgb(255, 225, 58);
+    box-shadow: 15px 15px 75px rgb(26, 0, 0);
+}
+
+/* .display-4 {
+    margin-left: -140px;
+    margin-top: -10px;
+    font-size: 110px;
+    text-shadow: 0px 0px 10px gold;
+} */
+
+
+
+#house {
+    margin: auto;
+    margin-top: 125px;
+    font-family: 'Italianno', cursive;
+    text-align: center;
+    font-size: 225px;
+    text-shadow: 5px 5px 12px black;
+}
+
+#quote {
+    margin: auto;
+    margin-top: 55px;
+    font-family: 'UnifrakturCook', cursive;
+    text-align: center;
+    width: 80vw;
+    font-size: 50px;
+    text-shadow: 5px 5px 10px black;
+}
+
+#sortingHat {
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 225px;
+    font-family: 'UnifrakturCook', cursive;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 5px 5px 10px black;
+}
+
+
+
+
+.charResult {
+    font-family: 'Milonga', cursive;
+    color: goldenrod;
+    text-shadow: 5px 5px 10px black;
+}
+
+#name {
+    margin-top: -40px;
+    margin-left: 95px;
+    font-size: 85px;
+}
+
+#charHouse {
+    margin-top: 20px;
+    margin-left: 95px;
+    font-size: 35px;
+}
+
+#species {
+    margin-top: 25px;
+    margin-left: 95px;
+    font-size: 35px;
+}
+
+#patronus {
+    margin-top: 25px;
+    margin-left: 95px;
+    font-size: 35px;
+}
+
+#wand {
+    margin-top: 25px;
+    margin-left: 95px;
+    font-size: 35px;
+}
+
+#dob {
+    margin-top: 25px;
+    margin-left: 95px;
+    font-size: 35px;
+}
+
+#ancestry {
+    margin-top: 25px;
+    margin-left: 95px;
+    font-size: 35px;
+}
+
+#charImage {
+    float: right;
+    margin-top: -485px;
+    margin-right: 150px;
+    background-image: "";
+    background-position: center;
+    width: 400px;
+    height: 475px;
+}
+
+
+
+.searchBar {
+    text-align: center;
+    margin-top: 190px;
+    margin-bottom: 230px;
+}
+
+#charSearch {
+    z-index: 2;
+    font-family: 'Fredericka the Great', cursive;
+    text-shadow: 5px 5px 7px rgb(31, 0, 0);
+    font-size: 100px;
+    color: rgb(226, 172, 34);
+}
+
+#searchBar {
+    z-index: 2;
+    margin-top: 60px;
+    width: 60vw;
+    height: 50px;
+    padding-left: 10px;
+    font-size: 28px;
+    font-family: 'Milonga', cursive;
+}
+
+#searchButton {
+    z-index: 2;
+    margin-left: -25px;
+    margin-top: 80px;
+    width: 85px;
+    height: 45px;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 22px;
+    font-family: 'Fredericka the Great', cursive;
+    text-shadow: 0px 0px 1px;
+    background-color: rgb(189, 181, 181);
+    padding-left: -3px;
+}
+
+
+
+
+footer {
+    position: absolute;
+    background: black;
+    background-size: cover;
+    height: 10vh;
+    width: 98.9vw;
+    text-align: center;
+    color: white;
+    padding-top: 9px;
+    font-family: 'Milonga', cursive;
+    margin-bottom: -5px;
+}
+
+footer p {
+    margin-top: 2px;
+    margin-bottom: 1px;
+}

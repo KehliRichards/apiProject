@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HP API Project</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <link href="https://fonts.googleapis.com/css?family=Diplomata+SC|Flavors|Fredericka+the+Great|Italianno|Lovers+Quarrel|Milonga|Playball|Qwigley|UnifrakturCook:700|Vast+Shadow" rel="stylesheet">
+
+    <link rel="stylesheet" href="hp.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> -->
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">Harry Potter<span class="sr-only">(current)</span></a>
+        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" id="gryffindor" href="#">Gryffindor</a>
+                <a class="nav-item nav-link" id="ravenclaw" href="#">Ravenclaw</a>
+                <a class="nav-item nav-link" id="hufflepuff" href="#">Hufflepuff</a>
+                <a class="nav-item nav-link" id="slytherin" href="#">Slytherin</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <!-- <h1 class="display-4">Quote?</h1> -->
+            <!-- <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p> -->
+        </div>
+    </div>
+
+    <!-- Body -->
+    <div class="noChar">
+      <h1 id="house"></h1>
+      <h4 id="quote"></h4>
+      <h4 id="sortingHat"></h4>
+    </div>
+
+
+    <div class="charResult">
+        <h1 id="name"></h1>
+        <h4 id="charHouse"></h4>
+        <h4 id="species"></h4>
+        <h4 id="patronus"></h4>
+        <h4 id="wand"></h4>
+        <h4 id="dob"></h4>
+        <h4 id="ancestry"></h4>
+    </div>
+
+    <div id="charImage"></div>
+
+
+
+    <div class="searchBar">
+      <h1 id="charSearch" >Search for a Character!</h1>
+      <input id="searchBar" type="text">
+      <br>
+      <button id="searchButton">Search</button>
+    </div>
+
+
+    <!-- Footer -->
+    <footer>
+      <p>API Project by Kehli Richards</p>
+      <p>March 2019</p>
+    </footer>
+
+    <script src="hp.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
